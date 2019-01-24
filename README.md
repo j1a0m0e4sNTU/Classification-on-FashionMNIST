@@ -3,7 +3,7 @@ Implementation of deep learning methods to classify FashionMNIST dataset
 
 ## Introduction
 This is a small project where I implement deep learning method on classification on FashionMNIST dataset. The codes is wirtten in PyTorch.
-In this project, I design three different model structures, and experiment results acn be found under logs/ folder. The main goal is to check whether **Residaul block** used in ResNet is useful or not even when the model is small. 
+In this project, I design three different model structures, and experiment results acn be found under logs/ folder. The main goal is to check whether **Residual block** used in ResNet is useful or not even when the model is small. 
 
 ## FashionMNIST
 This is a dataset contains 10 kinds of object. Fortunately, this dataset can be accessed direcrtly with PyTorch.
