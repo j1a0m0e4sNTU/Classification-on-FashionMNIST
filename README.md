@@ -1,5 +1,5 @@
 # Classification on FashionMNIST
-Using deep learning methods to classify FashionMNIST dataset
+Implementation of deep learning methods to classify FashionMNIST dataset
 
 ## Introduction
 This is a small project where I implement deep learning method on classification on FashionMNIST dataset. The codes is wirtten in PyTorch.
