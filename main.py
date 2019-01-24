@@ -17,7 +17,7 @@ parser.add_argument('-epoch_num', type = int, default = 10)
 parser.add_argument('-save', help='Name to be save' , default='mdoel.pkl')
 parser.add_argument('-load', help='Weights to be load', default=None)
 parser.add_argument('-log', help='Log file', default='log.txt')
-parser.add_argument('-check_batch_num', help= 'How many batches to show result once', type= int, default=10)
+parser.add_argument('-check_batch_num', help= 'How many batches to show result once', type= int, default=200)
 
 args = parser.parse_args()
 
