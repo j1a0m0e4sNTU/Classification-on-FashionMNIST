@@ -4,7 +4,7 @@ import torch
 from torch.utils.data import Dataset, DataLoader
 from torchvision import transforms
 from torchvision.datasets import FashionMNIST
-from model_manager import Manaeger
+from model_manager import Manager
 import sys
 sys.path.append('models')
 
@@ -41,7 +41,7 @@ def test():
 def main():
     print('main function is running ...')
     model = get_model(args.model)
-    manager = Manaeger(model, args)
+    manager = Manager(model, args)
     manager.load_data(trian_loader, valid_loader)
     if args.mode == 'train':
         manager.train()
