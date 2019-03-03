@@ -10,7 +10,7 @@ def get_string(*args):
         string = string + ' ' + str(s)
     return string
 
-class Manaeger():
+class Manager():
     def __init__(self, model, args):
         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
         self.model = model.to(self.device)
